@@ -13,19 +13,21 @@ This project demonstrates skills in:
 
 ---
 
-## 🛠️ Technologies Used
+## ## 🛠️ Technologies Used
 
-- Python
-- MySQL
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
+* Python
+* MySQL
+* Pandas
+* NumPy
+* Matplotlib
+* SQLAlchemy
+* MySQL Connector Python
+* OpenPyXL
+
 
 ---
 
 ## 📂 Project Structure
-
 
 Ecommerce_Analytics_Project/
 │
@@ -39,13 +41,17 @@ Ecommerce_Analytics_Project/
 │
 ├── Charts/
 │ ├── sales_by_city.png
-│ └── sales_by_product.png
+│ ├── sales_by_product.png
+│ ├── revenue_by_customer.png
+│ ├── revenue_by_category.png
+│ └── payment_method_analysis.png
 │
 ├── Reports/
 │ ├── final_sales_data.csv
 │ └── final_sales_report.xlsx
 │
 └── README.md
+
 
 
 ---
@@ -80,7 +86,7 @@ Ecommerce_Analytics_Project/
 Run the following command in Command Prompt or Terminal:
 
 
-pip install pandas numpy matplotlib seaborn mysql-connector-python
+pip install pandas numpy matplotlib sqlalchemy mysql-connector-python openpyxl
 
 
 ---
@@ -110,24 +116,73 @@ python ecommerce_analysis.py
 
 ## 📊 Output Generated
 
-- Sales charts are saved in the `Charts/` folder
-- Final analyzed data is saved in:
-  - `Reports/final_sales_data.csv`
-  - `Reports/final_sales_report.xlsx`
+### Charts Generated
+
+The following charts are automatically generated and saved inside the Charts folder:
+
+* sales_by_city.png
+* sales_by_product.png
+* revenue_by_customer.png
+* revenue_by_category.png
+* payment_method_analysis.png
+
+### Reports Generated
+
+The following reports are exported automatically:
+
+* Reports/final_sales_data.csv
+* Reports/final_sales_report.xlsx
 
 ---
 
 ## 📈 Key Features
 
-- Sales analysis by city
-- Product performance analysis
-- Data visualization using charts
-- Export of final analytical reports
+* Sales Analysis by City
+* Product Performance Analysis
+* Customer Revenue Analysis
+* Category Revenue Analysis
+* Payment Method Analytics
+* Automated Report Generation
+* Data Visualization using Matplotlib
+* CSV Report Export
+* Excel Report Export
+
+### Business Insights Generated
+
+* Top Revenue City
+* Top Selling Product
+* Highest Revenue Customer
+* Highest Revenue Category
+* Most Used Payment Method
+
 
 ---
 
 ## 🎯 Conclusion
 
-This project provides a complete workflow for ecommerce sales analysis using SQL and Python, from database creation to final report generation. It is suitable for academic submissions, portfolio projects, and resume demonstrations.
+This project demonstrates a complete end-to-end Ecommerce Sales Analytics workflow using MySQL and Python.
+
+The system integrates SQL database management, data analysis, business intelligence reporting, and visualization techniques to generate meaningful business insights.
+
+Key outcomes include:
+
+* Customer Revenue Analysis
+* Product Performance Analysis
+* Category Revenue Analysis
+* Payment Method Analytics
+* Automated CSV and Excel Report Generation
+* Data Visualization using Matplotlib
+
+This project is suitable for:
+
+* Portfolio Projects
+* Resume Demonstrations
+* Internship Applications
+* Academic Submissions
+* Data Analyst Roles
+* Business Analyst Roles
+
+Built using MySQL, Python, Pandas, NumPy, Matplotlib, SQLAlchemy, and OpenPyXL.
+
 
 ---
