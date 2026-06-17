@@ -1,0 +1,6 @@
+order_id,customer_id,product_id,quantity,order_date,customer_name,city,product_name,category,price,total_price
+1,1,101,1,2024-01-01,Arun,Chennai,Laptop,Electronics,50000.0,50000.0
+2,2,102,2,2024-01-02,Divya,Mumbai,Phone,Electronics,20000.0,40000.0
+3,3,103,3,2024-01-03,Karthik,Chennai,Chair,Furniture,5000.0,15000.0
+4,1,102,1,2024-01-04,Arun,Chennai,Phone,Electronics,20000.0,20000.0
+5,5,105,2,2024-01-05,Rahul,Bangalore,Headphones,Electronics,3000.0,6000.0
