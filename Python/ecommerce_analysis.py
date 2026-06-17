@@ -12,7 +12,7 @@ from sqlalchemy.engine import URL
 connection_url = URL.create(
     drivername="mysql+mysqlconnector",
     username="root",
-    password="Mysql@shobi07",
+    password="yoursqlpassword",
     host="localhost",
     port=3306,
     database="ecommerce_analytics"
